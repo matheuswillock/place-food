@@ -4,24 +4,48 @@
 
   width: 100%;
   background-color: #FFFFFF50;
+  display: flex;
+  justify-content: space-between;
 
 }
 
-.botaoLogin1 { 
+#logo {
 
-  font-size: 13pt; 
-  position: absolute;
-  right: 100px;
-  top: 38px;
-  
+  order: -1;
+  width: 50px;
+  height: 50px;
+
 }
 
-.botaoLogin2 {
- 
-  font-size: 25pt; 
-  position: absolute;
-  right: 10px;
-  top: 21px;
+#user {
+
+  border: 2px solid black;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin: 8px;
+
+}
+
+.cadastro {
+
+  width: 100%;
+  text-align: end;
+  padding-top: 30px;
+  padding-right: 5px;
+
+}
+
+#login {
+
+  font-size: 19pt;
+
+}
+
+.cadastro a {
+
+  text-decoration: none;
+  color: black;
 
 }
 
@@ -32,42 +56,40 @@
   padding-top: 25px;
   text-align: center;
   font-size: 20pt;
+  padding-bottom: 100px;
 
 }
 
 .texto1 {
 
   text-align: left;
-  padding-left: 350px;
-  padding-top: 100px;
-  padding-bottom: 75px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 100px;
 
 }
 
 .texto1 h3 {
   
-  position: absolute;
   font-size: 23pt;
-  right: 650px;
-  top: 400px;
+  order: 1;
+  align-self: center;
 
 }
 
 .texto2 {
 
   text-align: right;
-  padding-right: 350px;
+  display: flex;
+  justify-content: space-evenly;
   padding-bottom: 100px;
-  padding-top: 75px;
 
 }
 
 .texto2 h4 {
 
-  position: absolute;
   font-size: 23pt;
-  left: 330px;
-  bottom: 75px;
+  align-self: center;
 
 }
 
